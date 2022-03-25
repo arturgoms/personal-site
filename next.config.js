@@ -1,5 +1,7 @@
 module.exports = {
   images: {
+    loader: 'akamai',
+    path: '',
     domains: [
       "i.scdn.co", // Spotify Album Art
       "pbs.twimg.com", // Twitter Profile Picture
