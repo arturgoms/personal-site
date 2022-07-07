@@ -9,7 +9,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script async defer data-website-id="0ad2ebf8-0d91-498a-8675-914cabc4f0fb" src="https://monitor.arturgomes.com.br/umami.js"></script>
+          <script async defer data-website-id="4fd62802-e685-43af-bfc7-e44eb19b6c53" src="https://monitor.arturgomes.com.br/umami.js"></script>
           <link
             rel="icon"
             type="image/png"
