@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://arturgomes.com.br/sitemap.xml
