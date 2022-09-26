@@ -12,7 +12,7 @@ pygmentsStyle = "dracula"
 [params]
   footer = "Artur Gomes"
   description = "Software developer <Python/Rust>"
-  avatarURL = "images/profile.png"
+  avatarURL = "/images/profile.png"
   AvatarAltText = "avatar"
   avatarSize = "size-m"
   customHeadHTML = """
