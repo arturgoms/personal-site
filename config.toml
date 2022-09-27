@@ -5,9 +5,7 @@ title = "Artur Gomes"
 theme = "gokarna"
 enableEmoji = true
 enableRobotsTXT = true
-
-# Choose one of emacs, trac or perldoc
-pygmentsStyle = "dracula"
+pygmentsStyle = "monokai"
 
 [params]
   footer = "Artur Gomes"
@@ -76,7 +74,7 @@ pygmentsStyle = "dracula"
   [[menu.main]]
     identifier = "buymeacoffee"
     pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
+    url = "https://github.com/sponsors/arturgoms"
     weight = 6
 
   [[menu.main]]
