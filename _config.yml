@@ -1,0 +1,173 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Artur Gomes
+subtitle: 'Software Engineer <Python/Rust>'
+description: "Hi! I'm a Back-end developer at [Counterpart](https://yourcounterpart.com). Currently working full time with lambda functions and api gateways.
+Experience with Git and Gerrit integration, Yocto /Bitbake and Jira issue tracker, Django and django-rest framework.
+Also experience at embedded systems like ARM programming, ESP32/8266, i2C, serial, SPI protocols and linux environment. <br> <br>
+If you like what i do you can sponsor me using the button below: <br> <br>
+<iframe src='https://github.com/sponsors/arturgoms/button' title='Sponsor arturgoms' height='35' width='116' style='border: 0;'></iframe>"
+keywords: python, devops, rust
+author: Artur Gomes
+language: en
+timezone: 'America/Sao_Paulo'
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://arturgomes.com
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: DD MMM YYYY
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+## Themes: https://hexo.io/themes/
+theme: cactus
+theme_config:
+  colorscheme: dark
+  nav:
+    home: /
+    about: /about/
+    articles: /archives/
+    search: /search/
+    Resume: /files/cv_artur_gomes.pdf
+    Feed: /atom.xml
+  tags_overview: False
+  posts_overview:
+    show_all_posts: false
+    post_count: 5
+  social_links:
+    github: http://github.com/arturgoms
+    twitter: http://twitter.com/arturgoms
+    linkedin: https://www.linkedin.com/in/artur-gomes-a3aa059b/
+    mail: mailto:contact@arturgomes.com
+  copyright:
+    start_year: 2022
+    end_year: 
+  rss:
+  cloudflare_analytics:
+    enabled: true
+    id: 9d3d0f8c860b45fca5fc515e378fdafc
+  utterances:
+    enabled: true
+    repo: arturgoms/personal-site
+    issue_term: title
+    label: post
+    theme: photon-dark
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    url: /images/profile.png
+    gravatar: false
+    grayout: 
+
+favicon:
+  desktop:
+    url: /images/favicon.ico
+    gravatar: false
+  android:
+    url: /images/android-chrome-192x192.png
+    gravatar: false
+  apple:
+    url: /images/apple-touch-icon.png
+    gravatar: false
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
+

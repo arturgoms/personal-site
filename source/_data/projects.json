@@ -1,0 +1,12 @@
+[
+    {
+       "name":"Python apt-ios-repo",
+       "url":"/projects/py-apt",
+       "desc":"Library to interact with apt repositories related to the jailbreak community."
+    },
+    {
+       "name":"Kairos",
+       "url":"/projects/kairos",
+       "desc":"Smartwatch open-source and open-hardware with an operational system based on freertos"
+    }
+]
