@@ -8,7 +8,7 @@ subtitle: 'Software Engineer <Python/Rust>'
 description: "Hi! I'm a Back-end developer at [Counterpart](https://yourcounterpart.com). Currently working full time with lambda functions and api gateways.
 Experience with Git and Gerrit integration, Yocto /Bitbake and Jira issue tracker, Django and django-rest framework.
 Also experience at embedded systems like ARM programming, ESP32/8266, i2C, serial, SPI protocols and linux environment. <br> <br>
-If you like what i do you can sponsor me using the button below: <br> <br>
+If you like what i do, you can sponsor me using the button below: <br> <br>
 <iframe src='https://github.com/sponsors/arturgoms/button' title='Sponsor arturgoms' height='35' width='116' style='border: 0;'></iframe>"
 keywords: python, devops, rust
 author: Artur Gomes
@@ -160,7 +160,7 @@ favicon:
     url: /images/favicon.ico
     gravatar: false
   android:
-    url: /images/android-chrome-192x192.png
+    url: /images/favicon-192x192.png
     gravatar: false
   apple:
     url: /images/apple-touch-icon.png
